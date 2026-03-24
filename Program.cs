@@ -26,11 +26,11 @@ Console.WriteLine($"Min: {min}");
 
 if (average >= 15)
 {
-    Console.WriteLine("Average is high.");
+    Console.WriteLine("Average classification: HIGH");
 }
 else
 {
-    Console.WriteLine("Average is moderate.");
+    Console.WriteLine("Average classification: MODERATE");
 }
 
-Console.WriteLine($"Value range: {min} to {max}");
+Console.WriteLine($"Value interval: {min} - {max}");
