@@ -17,8 +17,10 @@ Console.WriteLine();
 Console.WriteLine("Calculated statistics");
 
 double average = StatisticsHelper.CalculateAverage(values);
+int max = StatisticsHelper.CalculateMax(values);
 
 Console.WriteLine($"Average: {average:F2}");
+Console.WriteLine($"Max: {max}");
 
 if (average >= 15)
 {
