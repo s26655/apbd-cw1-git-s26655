@@ -15,4 +15,7 @@ Console.WriteLine($"Numbers: {StatisticsHelper.FormatValues(values)}");
 Console.WriteLine();
 
 Console.WriteLine("Calculated statistics");
-Console.WriteLine($"Average: {StatisticsHelper.CalculateAverage(values):F2}");
+
+double average = StatisticsHelper.CalculateAverage(values);
+
+Console.WriteLine($"Average: {average:F2}");
