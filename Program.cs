@@ -19,3 +19,12 @@ Console.WriteLine("Calculated statistics");
 double average = StatisticsHelper.CalculateAverage(values);
 
 Console.WriteLine($"Average: {average:F2}");
+
+if (average >= 15)
+{
+    Console.WriteLine("Average is high.");
+}
+else
+{
+    Console.WriteLine("Average is moderate.");
+}
