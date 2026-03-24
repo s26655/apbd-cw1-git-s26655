@@ -2,6 +2,7 @@
 
 Console.WriteLine("Statistics Calculator");
 Console.WriteLine("---------------------");
+Console.WriteLine();
 
 if (values.Length == 0)
 {
@@ -9,5 +10,9 @@ if (values.Length == 0)
     return;
 }
 
+Console.WriteLine("Input data");
 Console.WriteLine($"Numbers: {StatisticsHelper.FormatValues(values)}");
+Console.WriteLine();
+
+Console.WriteLine("Calculated statistics");
 Console.WriteLine($"Average: {StatisticsHelper.CalculateAverage(values):F2}");
