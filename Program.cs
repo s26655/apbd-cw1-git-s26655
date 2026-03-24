@@ -33,4 +33,4 @@ else
     Console.WriteLine("Average classification: MODERATE");
 }
 
-Console.WriteLine($"Value interval: {min} - {max}");
+Console.WriteLine($"Range summary: minimum = {min}, maximum = {max}");
