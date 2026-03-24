@@ -32,3 +32,5 @@ else
 {
     Console.WriteLine("Average is moderate.");
 }
+
+Console.WriteLine($"Value range: {min} to {max}");
