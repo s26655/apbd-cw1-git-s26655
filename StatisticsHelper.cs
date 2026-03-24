@@ -41,4 +41,23 @@ public static class StatisticsHelper
 
         return max;
     }
+    public static int CalculateMin(int[] values)
+    {
+        if (values.Length == 0)
+        {
+            throw new ArgumentException("The values array cannot be empty.");
+        }
+
+        int min = values[0];
+
+        foreach (int value in values)
+        {
+            if (value < min)
+            {
+                min = value;
+            }
+        }
+
+        return min;
+    }
 }
